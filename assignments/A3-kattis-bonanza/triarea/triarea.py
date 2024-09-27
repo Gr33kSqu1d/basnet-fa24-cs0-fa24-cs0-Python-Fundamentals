@@ -1,18 +1,18 @@
 """
-Program to solve kattis problem:
+Program to solve kattis problem: https://open.kattis.com/problems/triarea
 Finds traingle's area given height and base.
 
 Author: Ram Basnet
 Date:
 CSCI 110 - CS0 
 
-# Algorithm steps:
-# 1. use a function to read the height and base as a line
-# 2. use a function to split line into two integers
-#   a. convert each substring into int
-#   b. return those ints
-# 3. use funtion to find area = (height*base)/2 and reuturn the result
-# 4. print area
+Algorithm steps:
+1. use a function to read the height and base as a line
+2. use a function to split line into two integers
+   a. convert each substring into int
+   b. return those ints
+3. use funtion to find area = (height*base)/2 and reuturn the result
+4. print area
 """
 
 import sys
